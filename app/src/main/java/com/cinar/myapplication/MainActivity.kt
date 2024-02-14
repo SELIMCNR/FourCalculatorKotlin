@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity() {
         number1 = binding.numberText.text.toString().toDoubleOrNull()
         number2 = binding.number2Text.text.toString().toDoubleOrNull()
 
+        
         if (number1 == null || number2 == null){
             binding.textView.text = "Error !"
         }
